@@ -3,7 +3,7 @@
 
 This project showcases a complete workflow for banking customer segmentation using a K-Means clustering approach. By analyzing demographic and financial features, we derive meaningful customer groups and gain insights that can guide marketing, risk management, and customer outreach strategies.
 
-Project Overview
+# Project Overview
 
 Data Exploration: Assesses shape, missing values, and key statistics.
 
@@ -23,7 +23,7 @@ Evaluation: Assesses clustering quality using the Silhouette Score and silhouett
 
 Insights & Visualizations: Creates bar plots (e.g., balance, age, subscription distribution) to interpret each cluster.
 
-Dataset & Features
+# Dataset & Features
 
 Source: Banking dataset with attributes like age, balance, job, duration, etc.
 
@@ -35,7 +35,7 @@ Categorical: job, marital, education, default, housing, loan, contact, poutcome,
 
 Target: deposit (whether a customer subscribed to a term deposit)
 
-Repository Files
+# Repository Files
 
 Notebook/Script: The core code performing all steps (exploration, outlier handling, preprocessing, PCA, clustering, evaluation).
 
@@ -53,7 +53,7 @@ cluster_balance.png, cluster_age.png, cluster_deposit.png: Summaries of importan
 
 silhouette_plot.png: Silhouette coefficients per cluster.
 
-Key Results & Observations
+# Key Results & Observations
 
 Optimal K = 3:
 
@@ -79,7 +79,7 @@ Silhouette Score is around ~0.4 (example range), suggesting moderate separation 
 
 The silhouette plot shows each cluster's internal cohesion and separation from others.
 
-How to Use
+# How to Use
 
 Install dependencies:
 
@@ -89,7 +89,7 @@ Outputs (plots) will be saved in the working directory.
 
 Examine cluster distributions to glean marketing or business insights.
 
-Business Relevance
+# Business Relevance
 
 Detailed Insights
 
@@ -101,7 +101,7 @@ Cluster 0 holds customers with moderate balances, who might be open to mid-tier 
 
 Cluster 1 often includes younger customers with lower balances. This group may require different, more introductory financial products, such as basic savings accounts or educational financial planning programs, potentially improving future loyalty.
 
-Which Cluster to Target?
+# Which Cluster to Target?
 
 For maximizing immediate returns on term deposit marketing:
 
@@ -118,7 +118,7 @@ Product Personalization: Tailor features to each cluster’s financial needs—p
 Customer Satisfaction: Deliver appropriate product offerings, likely improving retention.
 
 
-Next Steps
+# Next Steps
 
 Experiment with alternative clustering algorithms (e.g., Hierarchical, DBSCAN) or more advanced dimension reduction (UMAP, t-SNE).
 
